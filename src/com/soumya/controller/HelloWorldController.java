@@ -21,7 +21,7 @@ public class HelloWorldController {
 			return model1;
 		}
 		ModelAndView model1 = new ModelAndView("hellopage");
-		model1.addObject("msg2", "whatsap!");
+		model1.addObject("msg2", "wh!");
 		return model1;
     } 
 	@ModelAttribute
